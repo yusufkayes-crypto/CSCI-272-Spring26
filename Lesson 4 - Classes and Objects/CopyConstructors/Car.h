@@ -8,17 +8,17 @@ class Car{
     int year{2012};
     
     public:
-    Car(){
+    Car(){ //default constructor
         
     }
     
-    Car(string b, string m, int y){
+    Car(string b, string m, int y){ //parmeterized constructor
         brand = b;
         model = m;
         year = y;
         
     }
-    Car(const Car& other){
+    Car(const Car& other){ //copy constructor
         brand = other.brand;
         model = other.model;
         year = other.year;
