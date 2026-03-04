@@ -8,8 +8,8 @@ private:
     int year{2012};             
 
 public:
-    ~Car(){
-    	cout << "Object is destroyed" << endl;
+    ~Car(){ //destructor
+    	cout << "Object is destroyed" << endl; //shows when an object is being destructed
     }
 
     Car(){
