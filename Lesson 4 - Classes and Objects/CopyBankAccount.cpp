@@ -1,0 +1,35 @@
+/*
+Shadman Yusuf Kayes
+Course: CSCI 272 (2)
+Lesson number: Lesson 4
+Code Topic: Copy BankAccount
+Date: 3/3/2026
+*/
+#include "BankAccount.h"
+#include <iostream>
+using namespace std;
+
+int main(){
+    BankAccount bankAccount1;
+    bankAccount1.deposit(30.5);
+    
+    cout << "Account balance: $" << bankAccount1.getBalance() << endl;
+    
+    return 0;
+}
+
+/*
+Reflection:
+1. What I understood:
+ I understood how member functions work, how they fit inside the class, and how it accesses the data inside a class.
+2. Difficulties:
+ In the beggining I struggled understanding when to use private and public data and how the getter method is used
+3. Research:
+ I searched online about how private data can be used inside a class and how to return it using the getter method
+4. AI Usage:
+ I used ChatGPT to understand header file including, using quotations instead of angle brackets
+5. What I learned:
+ I learned how member functions work with data inside of a class, private and public data, the getter method of returning private data, and the proper way of including header files
+
+
+*/
