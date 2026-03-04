@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Car {
+class Car{
 private:
     string brand{"Volkswagen"}; 
     string model = "Polo";     
