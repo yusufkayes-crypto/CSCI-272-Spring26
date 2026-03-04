@@ -24,7 +24,7 @@ Reflection:
  I understood when to make the data private and public.
  I also understood how private data can only be used in the class
 2. Difficulties:
- In the beginning, I struggled with a way of accessing private data in main()
+ In the beginning, I struggled with a way of accessing private data in main() and learned more about the getter method
 3. Research:
  I searched online about when to use private data and when to use public
 4. AI Usage:
