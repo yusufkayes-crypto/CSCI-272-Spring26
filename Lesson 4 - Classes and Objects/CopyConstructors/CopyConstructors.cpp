@@ -10,17 +10,17 @@ Date: 3/3/2026
 using namespace std;
 
 int main(){
-    Car car1;
-    Car car2("Tesla", "X", 2022);
+    Car car1; //default constructor
+    Car car2("Tesla", "X", 2022); //parameterized constructor
     
-    Car car3(car2);
+    Car car3(car2); //copy constructor
     
-    Car* pCar1 = new Car;
+    Car* pCar1 = new Car; //allocating new memory with default constructor
     
-    Car* pCar2 = new Car("Tesla", "X", 2022);
+    Car* pCar2 = new Car("Tesla", "X", 2022); //allocating new memory with parameterized constructor 
 
     
-    Car carArray[20];
+    Car carArray[20]; //creating an array using default constructor
     
     car1.startEngine();
     car2.startEngine();
@@ -29,7 +29,7 @@ int main(){
     pCar2->startEngine();
     carArray[0].startEngine();
     
-    delete pCar1;
+    delete pCar1; //deallocatiung memory
     delete pCar2;
     
     
@@ -47,6 +47,7 @@ Reflection:
  I used ChatGPT to understand deallocating memory when allocating memory, as there would be a memory leak.
 5. What I learned:
  I learned that new requires delete, when to use default constructors, how constructors differ from member functions, and adding libraries for specific header files.
+ Also, creating an array for a huge copy of objects.
 
 
 */
